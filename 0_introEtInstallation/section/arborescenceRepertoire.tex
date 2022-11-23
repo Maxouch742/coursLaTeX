@@ -1,0 +1,101 @@
+\section{Arborescence type d'un répertoire}
+
+\begin{frame}
+    \frametitle{Arborescence minimal}
+    \dirtree{%
+    .1 name\_document.
+    .2 pictures.
+    .2 main.tex.
+    .2 main.pdf.
+    }
+\end{frame}
+
+\begin{frame}
+    \frametitle{Arborescence pour des gros document}
+    \dirtree{%
+    .1 name\_document.
+    .2 annexes.
+    .2 chapter.
+    .2 configuration.
+    .2 introduction.
+    .2 listings.
+    .2 logos.
+    .2 pictures.
+    .2 main.tex.
+    .2 main.pdf.
+    }
+\end{frame}
+
+\begin{frame}
+    \dirtree{%
+    .1 name\_document.
+    .2 annexes.
+    .3 ann1.tex.
+    .3 ann2.tex.
+    .2 chapter.
+    .3 chap1.tex.
+    .3 chap2.tex.
+    }
+\end{frame}
+
+\begin{frame}
+    \dirtree{%
+    .1 name\_document.
+    .2 configuration.
+    .3 packages.tex.
+    .3 constantes.tex.
+    .3 style\_entetePiedPage.tex.
+    .3 config\_listing.tex.
+    .3 config\_siunitix.tex.
+    .3 commandes\_perso.tex.
+    .2 introduction.
+    .3 pageTitre.tex.
+    .3 preambule.tex.
+    .3 resume.tex.
+    }
+\end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Description des fichiers (configuration)}
+    \begin{itemize}[label=$\triangleright$]
+        \item \texttt{packages.tex} : fichier avec tous les packages dont on a besoin, et leurs descriptions en commentaires
+        \item \texttt{constantes.tex} : fichier avec des commandes de type \verb|\newcommand| avec les informations importantes du document (auteur, lieu, date, expert, ...)
+        \item \texttt{style\_entetePiedPage.tex} : paramétrage des en-têtes et pied de pages
+        \item \texttt{commandes\_perso.tex} : vos macros personnelles et autres commandes utiles
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Description des fichiers (introduction)}
+    \begin{itemize}[label=$\triangleright$]
+        \item \texttt{page\_Titre.tex} : page titre personnelle pour votre fichier final
+        \item \texttt{preambule.tex} : preambule du document (selon besoin, ex : TB)
+        \item \texttt{resume.tex} : résumé du document (selon besoin, ex : TB)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Compilation des divers fichiers}
+    \begin{lstlisting}[language=TeX]
+    \documentclass[11pt,openright,a4paper,onecolumn,
+    twoside]{report}
+    \input{configuration/constantes.tex}
+    \input{configuration/package.tex}
+    \input{configuration/config_listing.tex}
+    \input{configuration/config_siunitix.tex}
+    \begin{document}
+        \input{introduction/pageTitre.tex}
+        \pagestyle{front}  
+        \tableofcontents
+        \newpage
+        \pagestyle{main}
+        \input{chapter/chap1.tex}    
+        \pagestyle{back}
+        \appendix
+        \input{annexes/ann1.tex}
+        \listoffigures
+        \listoftables
+    \end{document}
+    \end{lstlisting}
+\end{frame}
+

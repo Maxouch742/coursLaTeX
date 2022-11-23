@@ -1,0 +1,91 @@
+\section{Créer des tableaux}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Créer un tableau}
+    \begin{table}
+        \centering
+        \begin{tabular}{|r||l|l|c|}
+            \hline
+            \textbf{ID} & \textbf{E. RGF93} & \textbf{N. RGF93} & \textbf{Alt.} \\
+            \hline \hline
+            I.AB - 54      & 967.03 & 6591.37  & 436.573    \\
+            \hline
+            I.A.K3 - 51bis & 967.47 & 6591.42  & 431.091    \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \begin{lstlisting}[language=TeX]
+    \begin{table}
+        \centering
+        \begin{tabular}{|r||l|l|c|}
+            \hline
+            ID & E. RGF93 & N. RGF93 & Alt. \\
+            \hline \hline
+            I.AB - 54 & 967.03 & 6591.37 & 436.573 \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Cellules multicolonnes}
+    \begin{table}
+        \centering
+        \begin{tabular}{c|c|c|c}
+            \multicolumn{2}{c|}{\textbf{CH1903+}} & \multicolumn{2}{|c}{\textbf{WGS84}} \\
+            \hline
+            2500875.98 & 1117944.47 & \ang{46,20564} & \ang{6,15430} \\
+            2540407.43 & 1181157.61 & \ang{46,77892} & \ang{6,65830} \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \footnotesize
+    \begin{lstlisting}[language=TeX]
+    \begin{table}
+        \centering
+        \begin{tabular}{c|c|c|c}
+            \multicolumn{2}{|c|}{\textbf{CH1903+}} & 
+            \multicolumn{2}{|c}{\textbf{WGS84}} \\
+            \hline
+            2500875.98 & 1117944.47 & 46,20564 & 6,15430 \\
+            2540407.43 & 1181157.61 & 46,77892 & 6,65830 \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[containsverbatim]
+    \frametitle{Cellules multilignes}
+    \begin{table}
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \multirow{2}{*}{Admis} & Non redoublants \\
+            \cline{2-2}
+                                   & Redoublants     \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \begin{lstlisting}[language=TeX]
+    \begin{tabular}{|c|c|}
+        \hline
+        \multirow{2}{*}{Admis} & Non redoublants \\
+        \cline{2-2}
+                               & Redoublants     \\
+        \hline
+    \end{tabular}
+    \end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[containsverbatim]
+    \frametitle{Mémo}
+    \begin{itemize}[label=$\triangleright$]
+        \item Cellule multicolonne : \verb|\multicolumn{nombre}{col}{texte}|
+        \item Cellule multiligne : \verb|\multirow{nombre}{col}{texte}| \\
+        \warning \, Il faut utiliser le package \texttt{multirow}.
+    \end{itemize}
+\end{frame}

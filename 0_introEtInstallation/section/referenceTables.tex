@@ -1,0 +1,80 @@
+\section{Références et tables}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Création de référence}
+    \begin{alertblock}{Explication}
+        Il est tout à possible de créer une \og ancre \fg{} à un paragraphe, une équation ou une figure ou tout autre élément de votre choix. \\
+        La commande à utiliser est : \verb|\label{}|
+    \end{alertblock}
+    \begin{lstlisting}[language=TeX, caption=Exemple]
+    \begin{equation}\label{eq:relativite}
+        e = m \cdot c^2
+    \end{equation}
+    \end{lstlisting}
+    \begin{equation}\label{eq:relativite}
+        e = m \cdot c^2
+    \end{equation}
+\end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Référence à une ancre}
+    \begin{alertblock}{Explication}
+        Faire référence à une ancre est une méthode générique. \\
+        Pour cela, la commande à utiliser est : \verb|\ref{}|.
+    \end{alertblock}
+    \begin{lstlisting}[language=TeX, caption=Exemple]
+    L'equation \ref{eq:relativite} est la formule de la
+    relavitive generale.
+    \end{lstlisting}
+    L'équation \ref{eq:relativite} est la formule de la relativité générale.
+\end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Référence à une page}
+    \begin{alertblock}{Explication}
+        On veut parfois savoir à quelle page se situe l'objet dont on fait la référence. \\
+        Pour cela, on peut utiliser la commande : \verb|\pageref{}|
+    \end{alertblock}
+    \begin{lstlisting}[language=TeX, caption=Exemple]
+    L'equation \ref{eq:relativite}, page
+    \pageref{eq:relativite} est la formule de la 
+    relavitive generale.
+    \end{lstlisting}
+    L'équation \ref{eq:relativite}, page \pageref{eq:relativite} est la formule de la relativité générale.
+    \end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Référence à l'objet courant}
+    \begin{alertblock}{Explication}
+        Il est courant de faire référence parfois au chapitre, ou section dans lequel on se trouve. \\
+        Pour cela on utilise des commandes : \texttt{the}-commandes.
+    \end{alertblock}
+    \begin{lstlisting}[language=TeX, caption=Exemple]
+    Nous sommes actuellement dans la section \thesection.
+    \end{lstlisting}
+    Nous sommes actuellement dans la section \thesection.
+\end{frame}
+
+\begin{frame}[containsverbatim]
+    \frametitle{Création d'une table (ou liste)}
+    \begin{alertblock}{Explication}
+        Grâce à la structure du document (chapitres, images, tableaux, \dots), il est possible d'obtenir la table des matières et les tables d'images aisément. \\
+        De plus, en compilant le fichier, les tables se mettent à jour automatiquement ; ainsi que les références etc.
+    \end{alertblock}
+    \footnotesize
+    \begin{table}
+        \centering
+        \begin{tabular}{|l|l|}
+            \hline
+            \verb|\tableofcontents| & Table des matières  \\
+            \verb|\listoffigures|   & Liste des figures   \\
+            \verb|\listoftables|    & Listes des tableaux \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \begin{exampleblock}{Nota}
+        Il n'est pas possible de créer une table des équations comme on fait pour les images. \\
+        Il existe d'autres alternatives en créant une macro qui légende les équations ou alors de créer un index avec des mots particuliers.
+    \end{exampleblock}
+\end{frame}
+\normalsize
