@@ -1,0 +1,9 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Historique}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Principes d'utilisation}{4}{0}{1}
+\beamer@sectionintoc {2}{Installation}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Solutions possibles}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Overleaf}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{MikTeX \& TexMaker}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{TexLive \& VisualStudioCode}{8}{0}{2}

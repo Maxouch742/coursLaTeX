@@ -1,125 +1,26 @@
-\documentclass{beamer}
+\documentclass[11pt,aspectratio=169]{beamer}
+
+\usetheme{quito-light} %Latest Version: https://github.com/sjijon/TeX-templates/tree/main/Beamer%20presentations/beamerthemequito-light
 
 \usepackage[T1]{fontenc}
-\usepackage{bookman}
-\usetheme[numbering=fraction, block=fill]{metropolis}  %source : https://fr.overleaf.com/latex/templates/metropolis-beamer-theme/qzyvdhrntfmr et https://mirror.foobar.to/CTAN/macros/latex/contrib/beamer-contrib/themes/metropolis/doc/metropolistheme.pdf
-
-\usepackage{listings}
-\lstset{
-    showtabs=false,
-    tabsize=2,
-    basicstyle=\footnotesize,
-    frame=single
-}
-\usepackage{enumitem}
-\usepackage{booktabs}  % pour toprule, etc
-\usepackage{amsfonts}
-\usepackage{amsmath}
-\usepackage{dirtree}
-\usepackage{multirow}
-\usepackage{amssymb}
-\usepackage{cancel}
-\usepackage{amsthm}
-\usepackage{siunitx}
-\usepackage{mathrsfs} 
-\usepackage{hyperref}%   liens internet
-\usepackage{tikz}
-\usepackage{fourier}
-\usepackage{verbatim}
-\usepackage{subfigure}
-\usepackage{graphicx} %Loading the package
-\graphicspath{{picture/}}
-
 \usepackage[french]{babel}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Information to be included in the title page:
-
-\title{Créer un document avec \LaTeX}
-\subtitle{Rapport et autres}
-\author{\href{mailto:maxime.fourquaux@heig-vd.ch}{Maxime Fourquaux}}
-\institute[HEIG]%
-{
-    HEIG-VD -- EC+G \\
-    GGT -- Géomatique et Gestion du Territoire \\
-    \textbf{VERSION PROVISOIRE}
-}
-\date{\today}
-%\logo{\includegraphics[width=0.75cm]{HEIG-VD_logotype_rouge-rvb.eps}}
-\logo{\includegraphics[width=0.75cm]{logoEC+G_163x165_ss_txt_ssBordBlanc.png}}
+\input{param/packages.tex}
+\input{param/constantes.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-%            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
-%\newcommand{\up}[1]{\textsuperscript{#1}}
-\def\labelenumi{\theenumi}
-%\setbeamertemplate{enumerate item}{\alph{enumi}}
-%\setbeamertemplate{enumerate subitem}{\roman{enumii}.}
-%\usepackage{outline}%
-%\def\labeloutlni{\theoutlni}%
-%\def\theoutlni{\alph{outlni}.}%
-%\renewcommand{\labelenumi}{\alph{enumi}.)
-
-\setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
-\setbeamerfont{itemize/enumerate subsubbody}{size=\normalsize}
-\setbeamertemplate{itemize item}{-}
-\setbeamertemplate{itemize subitem}{$\checkmark$}
-\setbeamertemplate{itemize subsubitem}{$\blacktriangleleft$}
-%\setbeamertemplate{frame footer}{Introduction à \LaTeX -- MFX}
-
-\newcommand{\encours}{\textit{{\color{red} En cours d'édition}}}
-\newcommand{\internet}[1]{\href{#1}{{\color{red} {\footnotesize \textit{lien de téléchargement} }}}}
-
-%\metroset{block=fill} %remplir les blocks
-
-\makeatletter
-\newcommand{\Pause}[1][]{\unless\ifmeasuring@\relax
-\pause[#1]%
-\fi} 
-\makeatother
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-{
-\setbeamertemplate{frame footer}{}
+%Page principale
 \frame{\titlepage}
+
+%Table des matières
+\frame{
+    {Sommaire}
+    \tableofcontents
 }
 
-\begin{comment}
-\begin{frame}{Information}
-    \warning \, Ce cours est destiné à des novices. Les fonctions et autres présentées dans ce document sont celles de bases. \\
-    Si vous souhaitez aller plus loin, n'hésitez à regarder la documentation sur internet et les forums !
-\end{frame}
-\end{comment}
-
-\begin{frame}{Information}
-    \warning Cette présentation est en cours d'écriture.
-    \newline \newline 
-    La version est provisoire.
-    Toutes remarques, corrections, questions sont les bienvenues à (\href{mailto:maxime.fourquaux@heig-vd.ch}{Maxime Fourquaux})
-\end{frame}
-
 \input{section/introduction.tex}
-
-\begin{frame}{Table des matières}
-  \setbeamertemplate{section in toc}[sections numbered]
-  \tableofcontents%[hideallsubsections]
-\end{frame}
-
-\input{section/creerDocumentLaTeX.tex}
-\input{section/structureDocument.tex}
-\input{section/miseEnForme.tex}
-\input{section/ecrireMathematiques.tex}
-\input{section/referenceTables.tex}
-\input{section/figureImportationCreation.tex}
-\input{section/creerTableau.tex}
-
-\input{section/creerCommandes.tex}
-\input{section/arborescenceRepertoire.tex}
-
-\input{section/bibliographie.tex}
-\input{section/allerPlusLoin.tex}
 
 \end{document}
