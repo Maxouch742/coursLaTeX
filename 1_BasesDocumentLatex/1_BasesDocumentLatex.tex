@@ -1,0 +1,27 @@
+\documentclass[11pt,aspectratio=169]{beamer}
+
+\usetheme{quito-light} %Latest Version: https://github.com/sjijon/TeX-templates/tree/main/Beamer%20presentations/beamerthemequito-light
+
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\input{param/packages.tex}
+\input{param/constantes.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%Page principale
+\frame{\titlepage}
+
+%Table des matières
+\frame{
+    {Sommaire}
+    \tableofcontents
+}
+
+\input{section/introduction.tex}
+\input{section/installation.tex}
+
+\end{document}
