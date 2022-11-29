@@ -1,0 +1,124 @@
+
+\section{Installation}
+\frame{
+    {Solutions possibles}
+    Plusieurs solutions logicielles existent pour produire un document PDF à partir d'un document \LaTeX :
+    \begin{itemize}
+        \item \texttt{Overleaf} : éditeur de fichier \texttt{.tex} en ligne (site internet)
+        \item \texttt{Tex Live} : environnement \LaTeX ; compatible avec le logiciel \texttt{Visual Studio Code}
+        \item \texttt{MikTex} : environnement \LaTeX ; compatible entre autre avec le logiciel \texttt{TexMaker}
+    \end{itemize}
+}
+
+\frame{
+    {Overleaf}
+
+    \begin{figure}
+        \centering
+        \includegraphics[height=1.5cm]{overleaf_logo.png}
+    \end{figure}
+
+    \vfill
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Avantages}
+        \begin{itemize}
+            \item Online
+            \item Gratuit (licence étudiante)
+            \item Exemple et templates disponibles
+            \item Stockage online
+            \item Possibilité de travailler à plusieurs
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \textbf{Inconvénients}
+        \begin{itemize}
+            \item Online (besoin d'une connexion internet)
+            \item Compile le fichier pour avoir un résultat à chaque fois
+        \end{itemize}
+    \end{columns}
+    \begin{center}
+        \href{https://www.overleaf.com}{\texttt{https://www.overleaf.com}}
+    \end{center}
+}
+
+\frame{
+    {TexLive \& VisualStudioCode}
+
+    \begin{figure}
+        \centering
+        \subfigure{\includegraphics[height=1.5cm]{texlive_logo.jpg}} 
+        \hspace{2cm}
+        \subfigure{\includegraphics[height=1.5cm]{vsCode_logo.png}}
+    \end{figure}
+
+    \vfill
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Avantages}
+        \begin{itemize}
+            \item Desktop (toujours disponible)
+            \item Compatible avec GitHub
+            \item Configuration pour l'utilisateur
+            \item Possibilité de connecter des scripts python pour générer les graphes (et mises à jour automatiques)
+            \item Installation de tous les packages
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \textbf{Inconvénients}
+        \begin{itemize}
+            \item Connaissance de base sur \LaTeX
+            \item Peu user-friendly au premier abord
+        \end{itemize}
+    \end{columns}
+}
+
+
+\frame{
+    {TexLive \& VisualStudioCode (Installation)}
+
+    \begin{enumerate}
+        \item Téléchargement :
+        \begin{itemize}
+            \item Tex Live : \href{https://www.tug.org/texlive/}{lien internet}
+            \item VS Code : \href{https://code.visualstudio.com/download}{lien internet}
+        \end{itemize}
+        \item Configuration de VS Code :
+        \begin{itemize}
+            \item Télécharger l'extension \texttt{LaTeX Workshop} (James Yu)
+            \item Suivre le tutoriel : \href{https://mathjiajia.github.io/vscode-and-latex/#step-3-install--configure-latex-workshop}{Jia Jia's Homepage}
+        \end{itemize}
+    \end{enumerate}
+}
+
+\frame{
+    {MikTeX \& TexMaker}
+
+    \begin{figure}
+        \centering
+        \subfigure{\includegraphics[height=1.5cm]{miktex_logo.png}} 
+        \hspace{2cm}
+        \subfigure{\includegraphics[height=1.5cm]{texmaker_logo.png}}
+    \end{figure}
+
+    \vfill
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Avantages}
+        \begin{itemize}
+            \item Desktop (toujours disponible)
+            \item Utile pour les débutants (aides, commandes, ...)
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \textbf{Inconvénients}
+        \begin{itemize}
+            \item Compilation parfois compliquée
+            \item Erreurs mal détaillées
+            \item Installation de certains packages
+        \end{itemize}
+    \end{columns}
+}

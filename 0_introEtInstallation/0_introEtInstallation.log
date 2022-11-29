@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.18)  23 NOV 2022 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.18)  29 NOV 2022 22:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -613,27 +613,46 @@ Package babel Info: Making ? an active character on input line 433.
 )) (c:/texlive/2022/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 Package french.ldf Info: No list customisation for the beamer class,
 (french.ldf)             reported on input line 7.
- (./param/packages.tex (c:/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+ (./param/packages.tex (c:/texlive/2022/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip64
+\subfigcapskip=\skip65
+\subfigcaptopadj=\dimen314
+\subfigbottomskip=\skip66
+\subfigcapmargin=\dimen315
+\subfiglabelskip=\skip67
+\c@subfigure=\count351
+\c@lofdepth=\count352
+\c@subtable=\count353
+\c@lotdepth=\count354
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2022/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip68
+\subfig@bottom=\skip69
+) (c:/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write5
  Excluding comment 'comment') (c:/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count351
+\c@tracingmulticols=\count355
 \mult@box=\box80
-\multicol@leftmargin=\dimen314
-\c@unbalance=\count352
-\c@collectmore=\count353
-\doublecol@number=\count354
-\multicoltolerance=\count355
-\multicolpretolerance=\count356
-\full@width=\dimen315
-\page@free=\dimen316
-\premulticols=\dimen317
-\postmulticols=\dimen318
-\multicolsep=\skip64
-\multicolbaselineskip=\skip65
+\multicol@leftmargin=\dimen316
+\c@unbalance=\count356
+\c@collectmore=\count357
+\doublecol@number=\count358
+\multicoltolerance=\count359
+\multicolpretolerance=\count360
+\full@width=\dimen317
+\page@free=\dimen318
+\premulticols=\dimen319
+\postmulticols=\dimen320
+\multicolsep=\skip70
+\multicolbaselineskip=\skip71
 \partial@page=\box81
 \last@line=\box82
-\maxbalancingoverflow=\dimen319
+\maxbalancingoverflow=\dimen321
 \mult@rightbox=\box83
 \mult@grightbox=\box84
 \mult@firstbox=\box85
@@ -674,20 +693,21 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box120
 \@tempa=\box121
 \@tempa=\box122
-\c@minrows=\count357
-\c@columnbadness=\count358
-\c@finalcolumnbadness=\count359
-\last@try=\dimen320
-\multicolovershoot=\dimen321
-\multicolundershoot=\dimen322
+\c@minrows=\count361
+\c@columnbadness=\count362
+\c@finalcolumnbadness=\count363
+\last@try=\dimen322
+\multicolovershoot=\dimen323
+\multicolundershoot=\dimen324
 \mult@nat@firstbox=\box123
 \colbreak@box=\box124
-\mc@col@check@num=\count360
+\mc@col@check@num=\count364
 )) (./param/constantes.tex) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count361
+\l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box125
-) (./0_introEtInstallation.aux)
+)
+No file 0_introEtInstallation.aux.
 \openout1 = `0_introEtInstallation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -708,7 +728,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -745,16 +764,16 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count362
-\scratchdimen=\dimen323
+\scratchcounter=\count366
+\scratchdimen=\dimen325
 \scratchbox=\box126
-\nofMPsegments=\count363
-\nofMParguments=\count364
+\nofMPsegments=\count367
+\nofMParguments=\count368
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count365
-\MPscratchDim=\dimen324
-\MPnumerator=\count366
-\makeMPintoPDFobject=\count367
+\MPscratchCnt=\count369
+\MPscratchDim=\dimen326
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
 \everyMPtoPDFconversion=\toks49
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -770,12 +789,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count368
+\c@section@level=\count372
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
 LaTeX Info: Redefining \nameref on input line 13.
- (./0_introEtInstallation.out) (./0_introEtInstallation.out)
 \@outlinefile=\write6
 \openout6 = `0_introEtInstallation.out'.
 
@@ -847,9 +865,10 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \degres on input line 13.
 LaTeX Info: Redefining \up on input line 13.
- (./0_introEtInstallation.nav)
+
+No file 0_introEtInstallation.nav.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
- (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
@@ -860,73 +879,164 @@ LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inpu
  (c:/texlive/2022/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-<./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png, id=50, 39.7485pt x 39.2667pt>
+<./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png, id=18, 39.7485pt x 39.2667pt>
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
 Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 16.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
  [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>] (./0_introEtInstallation.toc)
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>]
+No file 0_introEtInstallation.toc.
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
 Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 22.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
- [2
+[2
 
 ] (./section/introduction.tex
-<./pictures//LaTeX_logo.png, id=90, 220.825pt x 92.345pt>
+<./pictures//LaTeX_logo.png, id=44, 220.825pt x 92.345pt>
 File: ./pictures//LaTeX_logo.png Graphic file (type png)
 <use ./pictures//LaTeX_logo.png>
-Package pdftex.def Info: ./pictures//LaTeX_logo.png  used on input line 21.
+Package pdftex.def Info: ./pictures//LaTeX_logo.png  used on input line 20.
 (pdftex.def)             Requested size: 119.50279pt x 49.97404pt.
-<./pictures//Leslie_Lamport2.jpg, id=91, 1445.4pt x 975.645pt>
+<./pictures//Leslie_Lamport2.jpg, id=45, 1445.4pt x 975.645pt>
 File: ./pictures//Leslie_Lamport2.jpg Graphic file (type jpg)
 <use ./pictures//Leslie_Lamport2.jpg>
-Package pdftex.def Info: ./pictures//Leslie_Lamport2.jpg  used on input line 21.
+Package pdftex.def Info: ./pictures//Leslie_Lamport2.jpg  used on input line 20.
 (pdftex.def)             Requested size: 119.50279pt x 80.65843pt.
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
-Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 21.
+Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 20.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
  [3
 
  <./pictures//LaTeX_logo.png> <./pictures//Leslie_Lamport2.jpg>]
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
-Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 31.
+Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 29.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
  [4
 
-]
+]) (./section/installation.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 11.
+ (c:/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
-Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 40.
+Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 11.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
  [5
 
 ]
+<./pictures//overleaf_logo.png, id=72, 391.4625pt x 129.48375pt>
+File: ./pictures//overleaf_logo.png Graphic file (type png)
+<use ./pictures//overleaf_logo.png>
+Package pdftex.def Info: ./pictures//overleaf_logo.png  used on input line 44.
+(pdftex.def)             Requested size: 129.02771pt x 42.67912pt.
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
-Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 48.
+Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 44.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
  [6
 
-]
+ <./pictures//overleaf_logo.png>]
+<./pictures//texlive_logo.jpg, id=83, 306.16847pt x 160.56044pt>
+File: ./pictures//texlive_logo.jpg Graphic file (type jpg)
+<use ./pictures//texlive_logo.jpg>
+Package pdftex.def Info: ./pictures//texlive_logo.jpg  used on input line 76.
+(pdftex.def)             Requested size: 81.38185pt x 42.67912pt.
+<./pictures//vsCode_logo.png, id=84, 301.125pt x 168.63pt>
+File: ./pictures//vsCode_logo.png Graphic file (type png)
+<use ./pictures//vsCode_logo.png>
+Package pdftex.def Info: ./pictures//vsCode_logo.png  used on input line 76.
+(pdftex.def)             Requested size: 76.2092pt x 42.67912pt.
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
-Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 56.
+Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 76.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
  [7
 
-]
+ <./pictures//texlive_logo.jpg> <./pictures//vsCode_logo.png>]
+./section/installation.tex:94: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   s
+l.94 }
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./section/installation.tex:94: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   s
+l.94 }
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./section/installation.tex:94: Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   s
+l.94 }
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./section/installation.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.94 }
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./section/installation.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.94 }
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./section/installation.tex:94: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.94 }
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
 File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
 <use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
-Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 64.
+Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 94.
 (pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
- [8
+[8
 
-])
+]
+<./pictures//miktex_logo.png, id=106, 224.84pt x 224.84pt>
+File: ./pictures//miktex_logo.png Graphic file (type png)
+<use ./pictures//miktex_logo.png>
+Package pdftex.def Info: ./pictures//miktex_logo.png  used on input line 124.
+(pdftex.def)             Requested size: 42.67886pt x 42.67912pt.
+<./pictures//texmaker_logo.png, id=107, 1204.5pt x 1204.5pt>
+File: ./pictures//texmaker_logo.png Graphic file (type png)
+<use ./pictures//texmaker_logo.png>
+Package pdftex.def Info: ./pictures//texmaker_logo.png  used on input line 124.
+(pdftex.def)             Requested size: 42.67642pt x 42.67912pt.
+File: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png Graphic file (type png)
+<use ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png>
+Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  used on input line 124.
+(pdftex.def)             Requested size: 21.33955pt x 21.08086pt.
+ [9
+
+ <./pictures//miktex_logo.png> <./pictures//texmaker_logo.png>])
 \tf@nav=\write7
 \openout7 = `0_introEtInstallation.nav'.
 
@@ -937,22 +1047,28 @@ Package pdftex.def Info: ./pictures//logoEC+G_163x165_ss_txt_ssBordBlanc.png  us
 \openout9 = `0_introEtInstallation.snm'.
 
  (./0_introEtInstallation.aux)
-Package rerunfilecheck Info: File `0_introEtInstallation.out' has not changed.
-(rerunfilecheck)             Checksum: 2DB2FB5C5BD4A536F977A9B5C161EA61;1087.
+
+Package rerunfilecheck Warning: File `0_introEtInstallation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `0_introEtInstallation.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D93D3F1FEC39728CA6799B54F7D4A8CA;206.
  ) 
 Here is how much of TeX's memory you used:
- 26905 strings out of 478238
- 531129 string characters out of 5847939
- 789749 words of memory out of 5000000
- 44552 multiletter control sequences out of 15000+600000
- 498559 words of font info for 107 fonts, out of 8000000 for 9000
+ 27102 strings out of 478238
+ 535569 string characters out of 5847939
+ 793613 words of memory out of 5000000
+ 44743 multiletter control sequences out of 15000+600000
+ 499961 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,487b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx0600.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb>
-Output written on 0_introEtInstallation.pdf (8 pages, 227862 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx0600.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on 0_introEtInstallation.pdf (9 pages, 457538 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
